@@ -1,0 +1,135 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.main{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	margin:0 auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+}
+
+#address,#companyname,#password,#email,#phonenumber{
+	width:522px;
+	height:24px;
+	border-radius:4px;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	color:dark;
+	margin-left:20px;
+	margin-top:3px;
+    outline:none;
+}
+
+#firstname,#lastname{
+	width:232px;
+	height:24px;
+	border-radius:4px;
+    outline:none;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	color:dark;
+	margin-left:20px;
+	margin-top:3px;
+	
+}
+
+
+
+input{
+	font-size:15px;
+	margin-right:13px;
+	
+}
+#btn{
+	margin-top: 12px;
+    margin-left: 20px;
+    width: 536px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    background-color:RGB(4,170,109);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 9px;
+
+}
+
+.sub-main {
+    background: #ddd;
+	width: 571px;
+	padding-top: 12px;
+	height: 615px;
+	margin-left: 11px;
+	height: 622px;
+	border-radius: 5px;
+}
+#country{
+	width: 531px;
+    height: 34px;
+	border-radius:4px;
+    outline:none;
+	border-style:none;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	color:black;
+	margin-left:20px;
+	margin-top:3px;
+	border-color:2px solid white;
+	background-color: white;
+}
+textarea{
+	margin-left:20px;
+	margin-top:3px;
+	border-radius:4px;
+	width:523px;
+	border-color:2px solid rgb(58, 58, 58);
+	padding-top:5px;
+	padding-left:10px;
+	color:rgb(87, 85, 85);
+}
+.massage{
+	margin-left:20px;
+	color:red;
+}
+
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 56%;
+	margin-top: 20px;
+	margin: 0px auto;
+	margin-top: 0px;
+	margin-top: 20px;
+	cursor: pointer;
+  }
+  
+  
+#customers td, #customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+
+  }

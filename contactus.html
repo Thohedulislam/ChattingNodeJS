@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Contact Us Form</title>
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+  </head>
+   <body>
+    <div class="main">
+        <form name="myform">  
+            
+          <div class="sub-main">
+            <h1 style="text-align:center ;"><caption>Cotact-us-From</caption></h1><br/>
+             <div>
+               <input type="text" Name="firstname" id="firstname" placeholder="FirstName">
+               <input type="text" Name="lastname" id="lastname" placeholder="LastName">
+             </div><br>
+             <div>
+                <input type="text" Name="CompanyName" id="companyname" placeholder="CompanyName"><span id="companyName"></span>
+              </div><br>
+              
+             <div>
+                <input type="text" Name="address" id="address" placeholder="address"><span id="address"></span>
+              </div><br>
+
+             <div>
+                <input type="number" Name="phonenumber" id="phonenumber" placeholder="Phone"><span id="numloc"></span>
+              </div><br>
+              <div>
+                <input type="text" Name="email" id="email" placeholder="Email"><span class="massage"></span>
+              </div>
+             <br>
+             <div>
+                <textarea rows="10" name="subject" id="subject">Additional Informations
+                </textarea>
+             </div>
+             
+             <div>
+               <input type="submit" value="Place Order" id="btn">		
+             </div>
+             </div>
+         </form><br>
+         </div>
+     
+         <table id="customers">
+             <thead id="thead">
+             <tr>
+               <th>Full Name</th>
+               <th>phonenumber</th>
+               <th>address</th>
+               <th>CompanyName</th>
+               <th>Ad info</th>
+               <th>Delete</th>
+             </tr>
+         </thead>
+         <tbody id="tbody">
+             
+         </tbody>
+         
+</table>
+  </body>
+  <script src="js/main.js"></script>
+</html>
+
